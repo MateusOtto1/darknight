@@ -1,0 +1,1496 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap%27');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width:100%;
+    height:10.67vh;
+    border-bottom: 2px solid #000000;
+    position:fixed;
+    background-color:#fff;
+    z-index: 5;
+    margin:0;
+}
+.nome{
+    display:flex;
+    width:40.80vw;
+    height:10.67vh;
+    float: left;
+}
+.nome-img{
+    margin:0;
+    display:flex;
+    width:40.80vw;
+    height:10.67vh;
+    float: left;
+}
+
+.logo{
+    display:flex;
+    height:10.67vh;
+    width:7.208vw;
+    float: right;
+}
+
+.logo-img{
+    display:flex;
+    height:10.67vh;
+    width:7.208vw;
+    float: right;
+}
+
+#divBusca{
+    border-radius: 10px 10px;
+    background-color:#E32424;
+    border:solid 2px #000000;
+    width:35vw;
+    height:5vh;
+    float: left;
+    margin-top: 1%;
+    
+  }
+  input{
+    border-radius:3%;
+   
+  }
+
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left: 2%;
+    font-size: 1.7rem;
+    border:none;
+    height:5vh;
+    width:29.3vw;
+    font-family: 'Metal Mania', cursive;
+  }
+
+  #btnBusca{ 
+    font-size: 1.5rem;
+    font-family: 'Metal Mania', cursive;
+    border:none;
+    float:left;
+    height:5vh;
+    border-radius:0 2% 2% 0;
+    width:5vw;
+    font-weight:bold;
+    color: #E32424;
+    background:#000000;
+  }
+
+nav{
+    display: flex;
+    padding-top: 11.2vh;
+    width:100%;
+    height:3.3vh;
+    border-bottom: 2px solid #000000;
+    position:fixed;
+    background-color:#AAA7A7;
+    box-shadow: 2px 2px 10px #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#desta{
+    color:#E32424;
+  }
+
+nav ul li a{
+    margin-right: 17vw ;
+    text-decoration:none;
+    font-size:1.7rem;
+    line-height: 2.8vh;
+    font-weight: 400;
+    font-family: 'Metal Mania', cursive;
+    color:rgb(0, 0, 0);
+}
+
+nav ul li a:hover{
+   text-shadow: 2px 2px 10px rgb(0, 0, 0);
+   line-height: 100%;
+}
+
+.hero-container{
+    padding-top: 14vh;
+    background-color: #D9D9D9;
+}
+
+.hero-container img{
+    width:100%;
+    height:42.7vh;
+}
+
+#home{
+    max-height: 500vh;
+    background-color: #D9D9D9;
+}
+
+.tprodutos{
+    display:inline-block;
+    width: 100%;
+    height: 5.33vh;
+    background-color: #D9D9D9;
+}
+
+.t{
+    padding-left: 1.7vw;
+    padding-top: 0.9vh;
+    font-weight: 400;
+    font-family: 'Metal Mania', cursive;
+    color: #000000;
+}
+
+.m{
+    font-weight: 400;
+    font-family: 'Metal Mania', cursive;
+    color: #E32424;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: space-between;
+  justify-content: space-around;
+  height:64vh;
+}
+
+  .div:hover{
+    background-color:#C1C1C1;
+    border-radius: 20px 20px;
+  }
+
+  .i img{
+    border-radius: 20px 20px;
+    width: 14.5vw;
+    height: 25vh;
+    text-align: center;
+  }
+
+  .i{
+    padding-left: 0.95vw;
+    width: 14.5vw;
+    height: 25vh;
+  }
+
+  .texto{
+    padding-top: 1vh;
+    width: 16vw;
+    text-align: left;
+    padding-left: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
+    height: 28vh;
+  }
+
+  .vista{
+    color:#048626;
+  }
+
+  .prazo{
+    color: #E32424;
+  }
+
+  .cobrir{
+    color: #D9D9D9;
+  }
+
+
+
+
+
+  .nada{
+    width: 100%;
+    height: 7vh;
+    background-color: #AAA7A7;
+  }
+
+  footer{
+    background-color: #767676;
+     max-height: 21vh;
+  }
+  .footer{
+    width: 100%;
+    background-color: #767676;
+    height: 14vh;
+  }
+
+  .logofooter{
+    padding-top: 1.5vh;
+    padding-left: 1vw;
+    display:flex;
+    height:11vh;
+    width:18vw;
+    float: left;
+    background-color: #767676;
+  }
+
+  .logofooter img{
+     border-radius: 20px 20px;
+  }
+
+  .email{
+    border-radius: 10px 10px;
+    background-color:#D9D9D9;
+    border:solid 2px #000000;
+    width:22vw;
+    height:4vh;
+    margin-top: 2%;
+    display: flex;
+    margin:0;
+  }
+  #txtBuscafooter{
+    background-color:transparent;
+    padding-left: 5%;
+    font-size: 1.4rem;
+    border:none;
+    height:4vh;
+    width:22vw;
+    font-family: 'Metal Mania', cursive;
+  }
+
+  .divemail{
+    padding-top: 4.5vh;
+    float:left;
+  }
+
+  .descricao{
+    height:6.5vh;
+    width:20vw;
+    background-color: #D9D9D9;
+    border:solid 2px #000000;
+    border-radius: 10px 10px;
+  }
+
+  .textodesc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    
+  }
+
+  .divdesc{
+    padding-top: 3.5vh;
+    display: flex;
+    float: left;
+    padding-left: 8.1vw;
+  }
+
+  .local{
+    height:6.5vh;
+    width:20vw;
+    background-color: #D9D9D9;
+    border:solid 2px #000000;
+    border-radius: 10px 10px;
+  }
+
+  .textolocal{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.1vh;
+    font-size: 1rem;
+    padding-left: 1vw;
+  }
+
+  .divlocal{
+    padding-top: 3.5vh;
+    padding-left: 78vw;
+  }
+
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #D9D9D9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#E32424;
+} 
+
+a:-webkit-any-link{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.flex-containerdestaque{
+  display: flex;
+  flex-direction: space-between;
+  justify-content: space-around;
+  height:54vh;
+  padding-top: 25vh;
+}
+
+#compra1{
+  background-color: #C1C1C1;
+}
+.flex-containercompra1{
+  display: flex;
+  flex-direction: space-between;
+  justify-content: space-around;
+  height:54vh;
+  padding-top: 25vh;
+}
+
+.divcompra1{
+  width: 30vw;
+  height:54vh;
+}
+
+.icompra1 img{
+  border-radius: 20px 20px;
+  width: 22vw;
+  height: 35vh;
+  text-align: center;
+  
+}
+
+.icompra1{
+  padding-top: 4vh;
+  padding-left: 0.95vw;
+  width: 22vw;
+  height: 35vh;
+}
+
+.textocompra1{
+  padding-top: 4vh;
+  width: 25vw;
+  text-align: left;
+  padding-left: 0.5vw;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 30vh;
+  background-color: #C1C1C1;
+}
+
+.divtextocompra1{
+  width: 25vw;
+}
+
+.divbotaocompra1{
+  width: 25vw;
+}
+
+.botao1{
+  padding-top: 4vh;
+}
+
+.botao2{
+  padding-top: 4vh;
+}
+
+.botao1css{
+  background-color: #048626;
+  font-family: 'Metal Mania', cursive;
+  font-size: 1.7rem;
+  color: #fff;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px 10px;
+}
+
+.botao2css{
+  background-color: #E32424;
+  font-family: 'Metal Mania', cursive;
+  font-size: 1rem;
+  color: #fff;
+  width: 10vw;
+  height: 6.7vh;
+  border-radius: 10px 10px;
+}
+
+.carrinho{
+  color: #000000;
+  font-size: 2rem;
+
+}
+
+
+@media(max-width:1500px){
+  .flex-container {
+    height:70vh;
+  }
+
+  .flex-containerdestaque{
+    height:70vh;
+  }
+
+  .textolocal{
+    font-size: 0.7rem;
+  }
+
+  .textodesc{
+    padding-right: 2vw;
+    font-size: 0.8rem;
+  }
+
+  .botao1css{
+    font-size: 1.6rem;
+    height: 5.3vh;
+  }
+  
+  .botao2css{
+    font-size: 1rem;
+    height: 7vh;
+  }
+  
+  .carrinho{
+    font-size: 1.6rem;
+  }
+}
+
+@media(max-width:1380px){
+  .flex-container {
+    height:70vh;
+  }
+
+  .div:hover{
+   width: 100%;
+   height: 65vh;
+  }
+
+  .flex-containerdestaque{
+    height:70vh;
+  }
+
+  .textolocal{
+    font-size: 0.8rem;
+  }
+
+  .textodesc{
+    padding-top: 0.4vh;
+    font-size: 0.8rem;
+  }
+
+  .botao1css{
+    font-size: 1.6rem;
+    height: 5.3vh;
+  }
+  
+  .botao2css{
+    font-size: 1rem;
+    height: 7vh;
+  }
+  
+  .carrinho{
+    font-size: 1.6rem;
+  }
+}
+  
+@media(max-width:1000px){
+
+  #divBusca{
+    width:37vw;
+  }
+
+  #txtBusca{
+    height:5vh;
+    width:28.5vw;
+  }
+
+  #btnBusca{ 
+    margin-left: 0.75vw;
+    height:5vh;
+    border-radius:0 2% 2% 0;
+    width:7vw;
+  }
+
+  .flex-container {
+    height:80vh;
+  }
+
+  .flex-containercompra1{
+    height:70vh;
+  }
+
+  .div:hover{
+    width: 100%;
+    height: 75vh;
+   }
+
+  .textolocal{
+    font-size: 0.6rem;
+    padding-top: 0.4vh;
+  }
+  
+  .textodesc{
+    padding-left: 2.5vw;
+    padding-top: 0.3vh;
+    font-size: 0.7rem;
+  }
+
+}
+
+
+
+  @media(max-width:800px){
+    header{
+        position:fixed;
+        width:100%;
+        height:4.33vh;
+        border-bottom: 2px solid #000000;
+        background-color:#fff;
+        z-index:5;
+        margin: 0;
+    }
+    .nome{
+        margin:0;
+        display:flex;
+        width:35.80vw;
+        height:4.33vh;
+        float: left;
+    }
+    .nome-img{
+        margin:0;
+        display:flex;
+        width:20.80vw;
+        height:4.33vh;
+        float: left;
+    }
+    
+    .logo{
+        padding-right: 10vw;
+        display:flex;
+        height:4.32vh;
+        width:1.208vw;
+        float: right;
+    }
+    
+    .logo-img{
+        display:flex;
+        height:4.32vh;
+        width:1.208vw;
+        float: right;
+        
+    }
+    
+    #divBusca{
+        border-radius: 5px 5px;
+        background-color:#E32424;
+        border:solid 2px #000000;
+        width:40vw;
+        height:2vh;
+        float: left;
+        margin-top: 2%;
+        
+      }
+      input{
+        border-radius:3%;
+       
+      }
+    
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left: 5%;
+        font-size: 0.5rem;
+        border:none;
+        height:2vh;
+        width:30vw;
+        font-family: 'Metal Mania', cursive;
+      }
+    
+      #btnBusca{ 
+        font-size: 0.5rem;
+        font-family: 'Metal Mania', cursive;
+        border:none;
+        float:left;
+        height:2vh;
+        border-radius:0 2% 2% 0;
+        width:8vw;
+        font-weight:bold;
+        color: #E32424;
+        background:#000000;
+      }    
+    
+    h2{
+        font-size: 1rem;
+    }
+    
+
+
+
+
+    nav{
+       
+        padding-top: 4.5vh;
+        width:100%;
+        height:2.5vh;
+        border-bottom: 2px solid #000000;
+        position:fixed;
+        background-color:#AAA7A7;
+        box-shadow: 2px 2px 10px #000000;
+    }
+
+    nav ul{
+       margin-left: 2vw;
+    }
+    
+    nav ul li{
+        list-style: none;
+        display:inline-block;
+    }
+    
+    #desta{
+        color:#E32424;
+      }
+    
+    nav ul li a{
+        text-decoration:none;
+        font-size:0.8rem;
+        margin-left:3.2rem;
+        font-weight: 400;
+        font-family: 'Metal Mania', cursive;
+        color:rgb(0, 0, 0);
+    }
+    nav ul li a:hover{
+       text-shadow: 2px 2px 10px rgb(0, 0, 0);
+       line-height: 100%;
+    }
+    
+
+
+
+    .hero-container{
+        padding-top: 6.8vh;
+        background-color: #D9D9D9;
+    }
+
+    .hero-container img{
+        width:100%;
+        height:16vh;
+    }
+    
+    
+
+
+
+
+
+    #home{
+        max-height: 1000vh;
+        background-color: #D9D9D9;
+    }
+    
+    .tprodutos{
+        width: 100%;
+        height: 2.5vh;
+        background-color: #D9D9D9;
+    }
+    
+    .t{
+        padding-left: 5vw;
+        padding-top: 0.4vh;
+        font-weight: 400;
+        font-family: 'Metal Mania', cursive;
+        color: #000000;
+    }
+    
+    .m{
+        font-weight: 400;
+        font-family: 'Metal Mania', cursive;
+        color: #E32424;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        height: 240vh;
+       }
+
+       .div:hover{
+        background-color:#C1C1C1;
+        border-radius: 20px 20px;
+        width:100%;
+        height:100%;
+      }
+
+      .i img{
+        border-radius: 20px 20px;
+        width: 50vw;
+        height:22vh;
+        padding-left: 2vw;
+      }
+    
+      .i{
+        width: 55vw;
+        height:22vh;
+      }
+    
+      .texto{
+        padding-left: 5vw;
+        text-align: left;
+        font-size: 0.7rem;
+        width: 48vw;
+        height: 20vh;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+      .vista{
+        color:#048626;
+      }
+    
+      .prazo{
+        color: #E32424;
+      }
+    
+      .cobrir{
+        color: #D9D9D9;
+      }
+
+      
+      
+      
+      
+      .nada{
+        width: 100%;
+        height: 4vh;
+        background-color: #AAA7A7;
+      }
+
+      footer{
+        background-color: #767676;
+         max-height: 15vh;
+      }
+      .footer{
+        width: 100%;
+        background-color: #767676;
+        height: 12vh;
+      }
+
+      .logofooter{
+        padding-top: 2vh;
+        padding-left: 3vw;
+        display:flex;
+        height:8vh;
+        width:20.208vw;
+        float: left;
+        background-color: #767676;
+       
+      }
+
+      .logofooter img{
+         border-radius: 10px 10px;
+      }
+
+      .email{
+        
+        border-radius: 5px 5px;
+        background-color:#D9D9D9;
+        border:solid 2px #000000;
+        width:50vw;
+        height:2.67vh;
+        margin-top: 2%;
+        display: flex;
+        margin:0;
+      }
+      #txtBuscafooter{
+        float:left;
+        background-color:transparent;
+        padding-left: 5%;
+        font-size: 0.5rem;
+        border:none;
+        height:2.67vh;
+        width:50vw;
+        font-family: 'Metal Mania', cursive;
+      }
+
+      .divemail{
+        padding-top: 1.5vh;
+      }
+
+      .descricao{
+        height:5.5vh;
+        width:35vw;
+        background-color: #D9D9D9;
+        border:solid 2px #000000;
+        border-radius: 5px 5px;
+      }
+
+      .textodesc{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        padding-left: 1vw;
+        padding-top: 0.6vh;
+      }
+
+      .divdesc{
+        padding-top: 1vh;
+        padding-left: 0;
+      }
+
+      .local{
+        height:5.5vh;
+        width:38.3vw;
+        background-color: #D9D9D9;
+        border:solid 2px #000000;
+        border-radius: 5px 5px;
+      }
+
+      .textolocal{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        padding-left: 1vw;
+      }
+
+      .divlocal{
+        height:5.5vh;
+        width:38.3vw;
+        padding-top: 5.6vh;
+        padding-left: 60vw;
+      }
+
+     .flex-containerdestaque{
+      display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        height: 200vh;
+        padding-top: 9vh;
+    }
+
+      a:-webkit-any-link{
+        text-decoration: none;
+    }
+
+     .flex-containercompra1{
+      display: flex;
+      flex-flow: wrap;
+      flex-direction: row;
+      height: 100vh;
+      padding-top: 4vh;
+    }
+
+    #compra1{
+      background-color: #C1C1C1;
+    }
+   
+    .divcompra1{
+      width: 100%;
+      height:39vh;
+    }
+    
+    .icompra1 img{
+      border-radius: 20px 20px;
+      width: 70vw;
+      height: 35vh;
+      text-align: center;
+      
+    }
+    
+    .icompra1{
+      padding-top: 4vh;
+      padding-left: 14.5vw;
+      width: 70vw;
+      height: 35vh;
+    }
+    
+    .textocompra1{
+      width: 70vw;
+      height: 35vh;
+      text-align: left;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #C1C1C1;
+    }
+    
+    .divtextocompra1{
+      width: 70vw;
+      height: 35vh;
+    }
+    
+    .divbotaocompra1{
+      width: 70vw;
+    }
+    
+    .botao1{
+      padding-top: 4vh;
+      padding-left: 17.5vw;
+    }
+    
+    .botao2{
+      padding-top: 4vh;
+      padding-left: 17.5vw;
+    }
+    
+    .botao1css{
+      background-color: #048626;
+      font-family: 'Metal Mania', cursive;
+      font-size: 1.7rem;
+      color: #fff;
+      width: 35vw;
+      height: 5vh;
+      border-radius: 10px 10px;
+    }
+    
+    .botao2css{
+      background-color: #E32424;
+      font-family: 'Metal Mania', cursive;
+      font-size: 1rem;
+      color: #fff;
+      width: 35vw;
+      height: 6.7vh;
+      border-radius: 10px 10px;
+    }
+    
+    .carrinho{
+      color: #000000;
+      font-size: 1.7rem;
+    
+    }
+
+  }
+
+    @media(max-width:750px){
+
+      #divBusca{
+        width:40vw;
+        height:2.5vh;
+        margin-top: 0.6vh;
+        
+      }
+    
+      #txtBusca{
+        padding-left: 5%;
+        font-size: 1rem;
+        height:2.5vh;
+        width:30vw;
+        font-family: 'Metal Mania', cursive;
+      }
+    
+      #btnBusca{ 
+        font-size: 1rem;
+        height:2.5vh;
+        width:7.25vw;
+      }
+      
+      .flex-container {
+        height:270vh;
+      }
+
+      .i img{
+        width: 30vw;
+        height: 25vh;
+      }
+    
+      .i{
+        padding-left: 10vw;
+        width: 30vw;
+        height: 25vh;
+      }
+    
+      .flex-containerdestaque{
+        height:230vh;
+      }
+    
+      .textolocal{
+        font-size: 0.52rem;
+      }
+    
+      .textodesc{
+        font-size: 0.6rem;
+      }
+    
+      .botao1{
+        padding-left:25vw;
+      }
+
+      .botao2{
+        padding-left:25vw;
+      }
+
+      .botao1css{
+        height:7vh;
+        width: 25vw;
+        font-size: 2rem;
+      }
+      
+      .botao2css{
+        height:8.5vh;
+        width: 25vw;
+        font-size: 1rem;
+      }
+      
+      .carrinho{
+        font-size: 2rem;
+      }
+    }
+
+    @media(max-width:500px){
+    
+      #txtBusca{
+        font-size: 0.7rem;
+      }
+    
+      #btnBusca{ 
+        font-size: 0.7rem;
+      }
+      
+      .flex-container {
+        height:270vh;
+      }
+
+      .i img{
+        width: 36vw;
+      }
+    
+      .i{
+        padding-left: 7vw;
+        width: 36vw;
+      }
+    
+      .flex-containerdestaque{
+        height:230vh;
+      }
+    
+      .textolocal{
+        font-size: 0.52rem;
+      }
+    
+      .textodesc{
+        font-size: 0.6rem;
+      }
+    
+      .botao1{
+        padding-left:25vw;
+      }
+
+      .botao2{
+        padding-left:25vw;
+      }
+
+      .botao1css{
+        height:7vh;
+        width: 25vw;
+        font-size: 2rem;
+      }
+      
+      .botao2css{
+        height:8.5vh;
+        width: 25vw;
+        font-size: 1rem;
+      }
+      
+      .carrinho{
+        font-size: 2rem;
+      }
+    }
+
+    @media(max-width:400px){
+      #divBusca{
+        width:40vw;
+        margin-top: 0.6vh;
+      }
+    
+      #txtBusca{
+        font-size: 0.6rem;
+        width:29vw;
+      }
+    
+      #btnBusca{ 
+        font-size: 0.6rem;
+        height:2.5vh;
+        width:8.2vw;
+      }
+      
+      .flex-container {
+        height:290vh;
+      }
+
+      .i img{
+        width: 45vw;
+        height: 25vh;
+      }
+    
+      .i{
+        padding-left: 2vw;
+        width: 45vw;
+        height: 25vh;
+      }
+    
+      .flex-containerdestaque{
+        height:230vh;
+      }
+    
+      .textolocal{
+        font-size: 0.4rem;
+      }
+    
+      .textodesc{
+        font-size: 0.4rem;
+      }
+    
+      .botao1{
+        padding-left:23vw;
+      }
+
+      .botao2{
+        padding-left:23vw;
+      }
+
+      .botao1css{
+        height:7vh;
+        width: 25vw;
+        font-size: 1.5rem;
+      }
+      
+      .botao2css{
+        height:8.5vh;
+        width: 25vw;
+        font-size: 0.8rem;
+      }
+      
+      .carrinho{
+        font-size: 1.5rem;
+      }
+
+      .flex-containercompra1{
+        height: 120vh;
+       }
+
+    }
+
+    @media(max-width:390px){
+    
+      #btnBusca{ 
+        width:8.25vw;
+      }
+    }
+
+
+    @media(max-width:300px){
+    
+      #txtBusca{
+        font-size: 0.5rem;
+      }
+    
+      #btnBusca{ 
+        font-size: 0.5rem;
+      }
+      
+      .i img{
+        padding-left: 2.9vw;
+        width: 55vw;
+        height: 24vh;
+      }
+    
+      .i{
+        padding-right: 8vw;
+        width: 55vw;
+        height: 24vh;
+      }
+    
+
+     li{
+      width:30vw;
+     }
+
+     nav ul{
+      margin-right: 1vw;
+   }
+
+      nav ul li{
+        display: flex;
+      }
+
+      .flex-container {
+        height:290vh;
+      }
+    
+      .flex-containerdestaque{
+        height:230vh;
+      }
+    
+      .textolocal{
+        font-size: 0.45rem;
+      }
+    
+      .textodesc{
+        font-size: 0.45rem;
+      }
+    
+      .botao1css{
+        font-size: 1.4rem;
+      }
+      
+      .botao2css{
+        font-size: 1rem;
+      }
+      
+      .carrinho{
+        font-size: 1.4rem;
+      }
+    }
+
+    @media(max-width:285px){
+ 
+       .flex-container {
+         height:300vh;
+       }
+     
+       .flex-containerdestaque{
+         height:240vh;
+       }
+     
+       .textolocal{
+         font-size: 0.41rem;
+       }
+     
+       .textodesc{
+         font-size: 0.43rem;
+       }
+     
+       .botao1css{
+         font-size: 1.2rem;
+       }
+       
+       .botao2css{
+         font-size: 0.8rem;
+       }
+       
+       .carrinho{
+         font-size: 1.2rem;
+       }
+
+       .flex-containercompra1{
+        height: 130vh;
+       }
+     }
+
+     @media(max-height:400px){
+ 
+      header{
+        height:7vh;
+    }
+
+    .nome{
+      width:35vw;
+      height:7vh;
+  }
+  .nome-img{
+      width:6vw;
+      height:7vh;
+  }
+  
+  .logo{
+      height:7vh;
+  }
+  
+  .logo-img{
+      height:7vh;
+  }
+  
+  #divBusca{
+      margin-top: 1vh;
+      width:38vw;
+      height:3.5vh;
+    }
+  
+    #txtBusca{
+      padding-left: 2%;
+      font-size: 0.4rem;
+      height:3.5vh;
+      width:29vw;
+    }
+  
+    #btnBusca{ 
+      font-size: 0.4rem;
+      height:3.5vh;
+      width:7.4vw;
+    }
+  
+  nav{
+      padding-top: 7vh;
+      height:5vh;
+  }
+  
+  nav ul li a{
+    padding-top: 0.8vh;
+      font-size:0.8rem;
+  }
+
+  .hero-container{
+    padding-top: 12vh;
+}
+
+.hero-container img{
+    height:28vh;
+}
+
+#home{
+  max-height: 1900vh;
+  background-color: #D9D9D9;
+}
+
+      .flex-container {
+        height:500vh;
+      }
+
+      .tprodutos{
+        height: 5vh;
+        background-color: #D9D9D9;
+    }
+    
+    .t{
+      font-size: 0.8rem;
+    }
+
+    .i img{
+      width: 40vw;
+      height:30vh;
+    }
+  
+    .i{
+      width: 40vw;
+      height:30vh;
+    }
+  
+    .texto{
+      padding-left: 3vw;
+      font-size: 0.6rem;
+      width: 48vw;
+      height: 60vh;
+    }
+    
+      
+    .nada{
+      height: 5vh;
+    }
+
+    footer{
+       max-height: 25vh;
+    }
+    .footer{
+      height: 17vh;
+    }
+
+    .logofooter{
+      height:13vh;
+      width:20vw;
+    }
+
+    .email{
+      width:50vw;
+      height:3vh;
+    }
+    #txtBuscafooter{
+      height:3vh;
+      width:50vw;
+    }
+
+    .divemail{
+      padding-top: 1vh;
+    }
+
+    .descricao{
+      height:5.5vh;
+      width:35vw;
+    }
+
+    .textodesc{
+      font-size: 0.3rem;
+    }
+
+    .divdesc{
+      padding-top: 1.9vh;
+    }
+
+    .textolocal{
+      font-size: 0.29rem;
+      padding-left: 1vw;
+    }
+
+    .divlocal{
+      padding-top: 7.2vh;
+      padding-left: 60vw;
+    }
+
+    
+    
+    
+    .flex-containerdestaque{
+        height:380vh;
+        padding-top: 15vh;
+      }
+
+    .flex-containercompra1{
+       height: 200vh;
+       padding-top: 13vh;
+      }
+
+      .divcompra1{
+        width: 100%;
+        height:10vh;
+      }
+      
+      .icompra1 img{
+        width: 50vw;
+        height: 40vh;
+      }
+      
+      .icompra1{
+        padding-top: 4vh;
+        padding-left: 24vw;
+        width: 50vw;
+        height: 20vh;
+      }
+      
+      .textocompra1{
+        font-size: 0.7rem;
+      }
+      
+      .divtextocompra1{
+        width: 70vw;
+        height:20vh;
+      }
+      
+      .divbotaocompra1{
+        width: 70vw;
+        height: 0.1vh;
+      }
+      
+      .botao1{
+        padding-top: 0;
+      }
+      
+      .botao2{
+        padding-top: 4vh;
+      }
+      
+      .botao1css{
+        font-size: 1rem;
+        height: 8vh;
+      }
+      
+      .botao2css{
+        font-size: 0.6rem;
+        height: 11vh;
+      }
+      
+      .carrinho{
+        font-size: 1rem;
+      }
+
+    }
